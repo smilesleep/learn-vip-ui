@@ -1,22 +1,22 @@
-# learn-vip-ui 组件库
+# 快速开速
 
-### 快速开始
-
-#### 1.安装组件库
+#### 安装组件库
 
 ```bash
-npm i learn-vip-ui
+npm i learvn-vip-ui
 ```
 
-#### 2.引用组件库
+#### 引用组件库
+> 在 main.js 中引用组件库
+
 ```javascript
 // 全部引入
 import 'learn-vip-ui/dist/css/index.css';
 import MUI from 'learn-vip-ui';
 Vue.use(MUI);
 
-// 按需引用
-import 'learn-vip-ui/dist/css/demo/css';
+// 按需引入
+import 'learn-vip-ui/dist/css/demo.css';
 import { Demo } from 'learn-vip-ui';
 Vue.use(Demo);
 ```
